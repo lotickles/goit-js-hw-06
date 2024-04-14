@@ -12,3 +12,23 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+const ul = document.querySelector('.gallery');
+images.forEach(image => {
+  const li = document.createElement('li');
+  li.innerHTML = `<img 
+                  src = "${image.url}" 
+                  alt = "${image.alt}" 
+                  height = '300px'
+                  width = '600px'/>`;
+  ul.appendChild(li);
+});
+
+// Add flex-wrap and border dynamically
+ul.style.display = 'flex';
+ul.style.flexWrap = 'wrap';
+
+const lis = document.querySelectorAll('.gallery li');
+lis.forEach(li => {
+  li.style.margin = '20px';
+  li.style.border = '5px solid #b8b8b8';
+});
