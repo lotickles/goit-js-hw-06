@@ -1,11 +1,11 @@
 {
-  "name": "GOIT-JS-HW-06",
+  "name": "goit-js-hw-06",
   "version": "2.0.0",
-  "description": "GOIT-JS-HW-06",
-  "homepage": "https://goitacademy.github.io/GOIT-JS-HW-06",
+  "description": "goit-js-hw-06",
+  "homepage": " https://lotickles.github.io/goit-js-hw-06/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /GOIT-JS-HW-06/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-06/"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "author": "Marylou Rubis-Martirez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/lotickles/goit-js-hw-06/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
